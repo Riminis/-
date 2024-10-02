@@ -1,0 +1,27 @@
+{
+  "name": "z4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "fulstart": "concurrently \"node index.js\" \"react-scripts start src/index.js\"",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@pbe/react-yandex-maps": "^1.2.5",
+    "cors": "^2.8.5",
+    "express": "^4.21.0",
+    "leaflet": "^1.9.4",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.0",
+    "react-leaflet": "^4.2.1"
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}

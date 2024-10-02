@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #d87f0b, #c78e44);
+    padding: 20px;
+    height: 1500px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(248, 215, 166);
+    border: 5px solid #864d01;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0px 0px 10px 7px rgba(134, 77, 1, 0.31) inset;
+    -moz-box-shadow: 0px 0px 10px 7px rgba(134, 77, 1, 0.31) inset;
+    box-shadow: 0px 0px 10px 7px rgba(134, 77, 1, 0.31) inset;
+}
+
+.map-section {
+    flex: 1;
+    margin-right: 20px;
+    padding: 20px;
+    border: 5px;
+}
+
+.info-section {
+    flex: 0.5;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(30deg, #eed4b2, #ddba8c);
+    max-height: 600px;
+    overflow-y: hidden;
+    margin: 20px;
+    margin-left: 0px;
+    border: 3px solid #864d01;
+    border-radius: 10px;
+    color: #864d01;
+}
